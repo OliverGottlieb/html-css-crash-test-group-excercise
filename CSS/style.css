@@ -173,7 +173,9 @@ form textarea{
 }
 form input:focus{
   /* Insert a border property with following values: 4px dashed #4B4B4B */
+  border: 4px dashed #4B4B4B;
   /* Insert a outline property with following values: none */
+  outline: none;
 }
 form textarea:focus{
   border: 4px dashed #4B4B4B;
@@ -184,8 +186,11 @@ form input:valid{
 }
 input[type="submit"] {
   /* Insert a width property with following value: 39rem */
+  width: 39rem;
   /* Insert a background-color property with following value: red */
+  background-color: red;
   /* Insert a font-size property with following value: xx-large */
+  font-size: xx-large;
   /* Insert a color property with following value: ghostwhite */
     color: ghostwhite;
 }
