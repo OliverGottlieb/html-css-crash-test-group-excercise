@@ -22,7 +22,7 @@
     </header>
     <section class="banner">
         <!--- Add a image tag that displays banner.jpg and add an alt-attribute with following text "marioclub welcome banner"  --->
-        <img src="img/BANNER.jpg" alt="marioclub welcome banner">
+        <img src="img/banner.jpg" alt="marioclub welcome banner">
         <div class="welcome">
             <h2>Get in Touch<br><span>with Marioclub</span></h2>
         </div>
@@ -32,11 +32,11 @@
             <!--- Add a link around the <li>Join the club</li> tag that refers to index.html --->
             <a href="index.html"><li>Join the club</li></a>
             <!--- Add a link tag around the <li>Lastest news</li> tag that refers to news.html --->
-            <a href="NEWS.HTML"><li>Latest news</li></a>
+            <a href="news.html"><li>Latest news</li></a>
             <!--- Add a link tag around the <li>New games</li> tag that refers to games.html  --->
-            <a href="GaMES.html"><li>New games</li></a>
+            <a href="games.html"><li>New games</li></a>
             <!--- Add a link tag around the <li>Contact</li> tag that refers to contact.html and inside the link tag add a class attribute named "join" --->
-            <a class="join" href="CONTACT.html"><li>>Contact</li></a>
+            <a class="join" href="contact.html"><li>>Contact</li></a>
         </ul>
     </nav>
     <main>
@@ -44,9 +44,11 @@
             <h2>Get in touch with me, Mario</h2>
             <form>
                 <!--- Add a form input tag that accepts text as input type and with a placeholder attribute that contains following text "Type Firstname", and a name attribute "fname" and finally with a required attribute --->
-
+                <label for="fname">Type Firstname:</label>
+                <input type="text" id="fname" name="fname"><br><br>
                 <!--- Add a form input tag that accepts text as input type and with a placeholder attribute that contains following text "Type Lastname", and a name attribute "lname" and finally with a required attribute --->
-
+                <label for="lname">Type Lastname:</label>
+                <input type="text" id="lname" name="lname"><br><br>
                 <!--- Add a break HTML tag --->
 
                 <!--- Add a form input tag that accepts email as input type with a placeholder attribute that contains following text "Type Email", and a name attribute "mail" and finally with a required attribute --->
